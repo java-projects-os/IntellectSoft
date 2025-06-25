@@ -3,7 +3,6 @@ package com.intellectsotf.platform.u20221c486.portfolio.infrastructure.persisten
 import com.intellectsotf.platform.u20221c486.portfolio.domain.model.valueobjects.BackendStack;
 import jakarta.persistence.AttributeConverter;
 import jakarta.persistence.Converter;
-import java.util.Arrays;
 
 @Converter(autoApply = true)
 public class BackendStackConverter implements AttributeConverter<BackendStack, Integer> {
